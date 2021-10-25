@@ -1,0 +1,48 @@
+POST https://hml-wa-timesheet-api.waproject.com.br/admin/auth/login
+
+{
+    "email": "admin@waproject.com.br",
+    "password": "senha@1233"
+}
+
+{
+   "projectID":10,
+   "date":"2021-10-24T17:37:16.303Z",
+   "observation":"",
+   "startHour":"2021-10-25T14:37:16.303Z",
+   "endHour":"2021-10-25T15:00:16.303Z"
+}
+
+{
+    "id": 339,
+    "createdAt": "2021-10-25T17:49:04.526Z",
+    "updatedAt": "2021-10-25T17:49:04.526Z",
+    "date": "2021-10-24T00:00:00.000Z",
+    "startHour": "14:37:00",
+    "endHour": "15:00:00",
+    "observation": "",
+    "user": {
+        "id": 1,
+        "createdAt": "2021-05-13T14:20:45.100Z",
+        "updatedAt": "2021-05-27T21:17:20.759Z",
+        "firstName": "WaProject",
+        "lastName": "Admin",
+        "email": "admin@waproject.com.br",
+        "roles": [
+            "sysAdmin"
+        ],
+        "status": "1",
+        "fullName": "WaProject Admin"
+    },
+    "project": {
+        "id": 10,
+        "createdAt": "2021-05-14T12:56:08.059Z",
+        "updatedAt": "2021-05-14T12:56:08.059Z",
+        "name": "Pepsico | Veículos",
+        "status": "1"
+    },
+    "activity": 0.38333333333333336,
+    "activityHumanized": "0h 23min",
+    "after2WorkDays": false
+}
+
