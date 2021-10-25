@@ -1,0 +1,27 @@
+Cenário BDD como logar no sistema WA
+
+[CT01] - Logar na página TimeSheet 
+
+Funcionalidade: Logar na página TimeSheet
+Cenário: O usuário irá logar com login e senha padrão
+
+Pré condições: N/A
+
+Dado acessar o site https://hml-wa-timesheet.waproject.com.br
+Quando preencher o campo 'email' com email padrão 
+E preencher o campo senha
+Então deverá logar na pagina principal com sucesso
+
+[CT02] - Registrar atividade 
+
+Funcionalidade: Registrar atividade
+Cenário: Inclusão de atividade numa data específica
+
+Pré condições: N/A
+
+Dado esta logado na tela do TimeSheet
+Quando clicar no item 'Registrar Atividade'
+Então o sistema vai apresentar a tela do Registrar Atividade
+E preencher todos os campos obrigatorios
+E clicar no botão 'Registrar Atividade'
+Então deverá aparecer a mensagem 'Atividade Cadastrada com sucesso'
